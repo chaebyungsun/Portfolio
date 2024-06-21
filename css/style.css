@@ -4,32 +4,36 @@
   text-decoration: none;
   list-style: none;
 }
-#wrap {
+
+body {
+  font-family: "Pokemon Solid", sans-serif;
   background: #ef4036;
   height: 100vh;
 }
-body {
-  font-family: "Pokemon Solid", sans-serif;
-}
-audio {
-  right: 0;
-  bottom: 0;
-  position: absolute;
-}
-video {
-}
+
 header {
   padding-top: 20px;
   text-align: center;
+  position: relative;
 }
 header p {
-  margin-top: 20px;
+  margin-top: 100px;
   color: #ffcc03;
   font-size: 2em;
+}
+audio {
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+section {
 }
 .content {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .content ul {
   top: 70%;
@@ -38,9 +42,8 @@ header p {
   position: absolute;
 }
 .content li {
-  padding: 20px;
+  padding: 10px;
   float: left;
-  overflow: hidden;
 }
 .content li a {
   transition: all 0.3s;
@@ -52,5 +55,4 @@ header p {
 .content img {
   width: 200px;
   height: 200px;
-  text-align: center;
 }
